@@ -25,7 +25,7 @@ export default function Home() {
 
           <div className="border p-4 rounded-xl shadow-md">
             <h3 className="text-xl font-bold">AI Literature Guide</h3>
-            <p className="my-2">Developed an AI assistant that parses, summarizes, and semantically searches academic PDFs using OpenAI's Agent SDK. Implemented fault-aware chunking and resilient search.</p>
+            <p className="my-2">Developed an AI assistant that parses, summarizes, and semantically searches academic PDFs using OpenAI Agent SDK. Implemented fault-aware chunking and resilient search.</p>
             <a href="https://github.com/hith777" target="_blank" className="underline">View on GitHub</a>
           </div>
         </div>
