@@ -3,6 +3,19 @@
 import React, { useState } from "react";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Admin Dashboard | Propel2Excel",
+  description: "Mock dashboard for managing programs, events, and applications at Propel2Excel.",
+  openGraph: {
+    title: "Admin Dashboard | Propel2Excel",
+    description: "Interactive and responsive admin dashboard for nonprofit program management.",
+    url: "https://my-portfolio-h3rg.vercel.app/dashboard",
+    siteName: "Propel2Excel Portfolio",
+    locale: "en_US",
+    type: "website",
+  },
+};
+
 export default function Dashboard() {
   const [searchTerm, setSearchTerm] = useState("");
   const [applications, setApplications] = useState([
