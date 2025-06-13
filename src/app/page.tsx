@@ -1,10 +1,17 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-900 p-6">
+      <nav className="bg-white shadow px-6 py-4 mb-6 flex justify-between items-center">
+        <div className="space-x-4">
+          <Link href="/dashboard" className="text-blue-600 hover:underline">Dashboard</Link>
+        </div>
+      </nav>
+
       <section className="text-center mb-12">
         <h1 className="text-4xl font-bold mb-2">Hithesh Kumar Duttuluri</h1>
         <p className="text-lg">Web Developer | Full-Stack Engineer | Mission-Driven Technologist</p>
@@ -26,7 +33,7 @@ export default function Home() {
           <div className="border p-4 rounded-xl shadow-md">
             <h3 className="text-xl font-bold">AI Literature Guide</h3>
             <p className="my-2">Developed an AI assistant that parses, summarizes, and semantically searches academic PDFs using OpenAI Agent SDK. Implemented fault-aware chunking and resilient search.</p>
-            <a href="https://github.com/hith777" target="_blank" className="underline">View on GitHub</a>
+            <a href="https://github.com/hith777/ai-research-assistant" target="_blank" className="underline">View on GitHub</a>
           </div>
         </div>
       </section>
